@@ -254,6 +254,18 @@ Completing this practical gave me a better understanding of how DNS works behind
 
 Using Wireshark, I was able to capture live network traffic, generate DNS requests, filter DNS packets, and examine query and response information.
 
+wireshark-dns-analysis/
+│
+├── README.md
+└── screenshots/
+    ├── 01-wireshark-network-interface.png
+    ├── 02-wireshark-live-packet-capture.png
+    ├── 03-dns-cache-flushed.png
+    ├── 04-nslookup-example-com.png
+    ├── 05-wireshark-dns-filter.png
+    ├── 06-dns-query-packet-analysis.png
+    └── 07-dns-response-packet-analysis.png
+
 
 
 *This project was completed as part of my hands-on cybersecurity and networking learning journey.*
