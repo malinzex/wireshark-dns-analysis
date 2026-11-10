@@ -1,6 +1,6 @@
 # Wireshark Practical: DNS Traffic Capture and Packet Analysis
 
-## 1. Introduction
+## Introduction
 
 As part of my cybersecurity and networking learning journey, I carried out a hands-on exercise using **Wireshark**, a network protocol analyzer, to capture, inspect, and analyze Domain Name System (DNS) traffic.
 
@@ -8,7 +8,7 @@ The purpose of this practical was to understand how DNS queries and responses wo
 
 Rather than only learning networking concepts theoretically, this exercise allowed me to observe actual network packets and understand how devices communicate over a network.
 
-## 2. Objectives
+## Objectives
 
 The objectives of this practical were to:
 
@@ -21,7 +21,7 @@ The objectives of this practical were to:
 - Examine DNS packet details.
 - Understand how DNS translates domain names into IP addresses.
 
-## 3. Tools and Technologies Used
+## Tools and Technologies Used
 
 | Tool | Purpose |
 |---|---|
@@ -32,7 +32,7 @@ The objectives of this practical were to:
 | DNS | Resolving domain names into IP addresses |
 | UDP | Transport protocol commonly used for DNS queries |
 
-## 4. Understanding DNS
+## Understanding DNS
 
 **Domain Name System (DNS)** is a naming system that translates human-readable domain names into IP addresses that computers use to communicate over networks.
 
@@ -62,7 +62,7 @@ This happens because systems and applications may request both IPv4 and IPv6 add
 
 A DNS server may return an answer, return no matching record, or provide another response depending on the domain's DNS configuration.
 
-## 5. Practical Implementation
+## Practical Implementation
 
 ### Step 1: Opening Wireshark and Selecting a Network Interface
 
