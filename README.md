@@ -74,7 +74,7 @@ I double-clicked the interface to begin capturing live network traffic.
 
 **Screenshot 1: Wireshark Network Interface Selection**
 
-![Wireshark network interface selection](screenshots/01-wireshark-network-interface.png)
+![Wireshark Network Interface Selection](01-wireshark-network-interface.png)
 
 **Screenshot 2: Live Network Packet Capture**
 
