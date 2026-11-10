@@ -78,7 +78,7 @@ I double-clicked the interface to begin capturing live network traffic.
 
 **Screenshot 2: Live Network Packet Capture**
 
-![Wireshark live packet capture](screenshots/02-wireshark-live-packet-capture.png)
+![Live Network Packet Capture](02-wireshark-live-packet-capture.png)
 
 ### Step 2: Clearing the DNS Cache
 
@@ -98,7 +98,7 @@ The command returned a successful confirmation message.
 
 **Screenshot 3: DNS Cache Successfully Flushed**
 
-![DNS cache flushed](screenshots/03-dns-cache-flushed.png)
+![DNS cache flushed](03-dns-cache-flushed.png)
 
 ### Step 3: Generating DNS Traffic
 
@@ -119,7 +119,7 @@ The output helped me distinguish between:
 
 **Screenshot 4: Nslookup Example.com**
 
-![Nslookup example.com](screenshots/04-nslookup-example-com.png)
+![Nslookup example.com](04-nslookup-example-com.png)
 
 ### Step 4: Filtering DNS Traffic in Wireshark
 
@@ -143,7 +143,7 @@ The filter helped me locate DNS packets associated with the domain.
 
 **Screenshot 5: Wireshark DNS Display Filter**
 
-![Wireshark DNS display filter](screenshots/05-wireshark-dns-filter.png)
+![Wireshark DNS display filter](05-wireshark-dns-filter.png)
 
 ### Step 5: Analyzing the DNS Query
 
@@ -167,7 +167,7 @@ I also observed AAAA queries, which request IPv6 address information.
 
 **Screenshot 6: DNS Query Packet Analysis**
 
-![DNS query packet analysis](screenshots/06-dns-query-packet-analysis.png)
+![DNS query packet analysis](06-dns-query-packet-analysis.png)
 
 ### Step 6: Analyzing the DNS Response
 
@@ -185,7 +185,7 @@ The query and response can be matched using their DNS transaction ID, alongside 
 
 **Screenshot 7: DNS Response Packet Analysis**
 
-![DNS response packet analysis](screenshots/07-dns-response-packet-analysis.png)
+![DNS response packet analysis](07-dns-response-packet-analysis.png)
 
 ## 6. DNS Packet Analysis: Questions and Observations
 
